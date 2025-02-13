@@ -1,0 +1,212 @@
+.elementor-kit-21801 {
+	--e-global-color-primary: #0a9c66;
+	--e-global-color-secondary: #8A8A8C;
+	--e-global-color-text: #3F3F3F;
+	--e-global-color-accent: #F18C26;
+	--e-global-color-f051519: #000000;
+	--e-global-color-a631957: #FFFBF8;
+	--e-global-color-e870969: #FFFFFF;
+	--e-global-typography-primary-font-family: "Lato";
+	--e-global-typography-primary-font-size: 2em;
+	--e-global-typography-primary-font-weight: 600;
+	--e-global-typography-secondary-font-family: "Lato";
+	--e-global-typography-secondary-font-weight: 400;
+	--e-global-typography-text-font-family: "Lato";
+	--e-global-typography-text-font-size: 1.125em;
+	--e-global-typography-text-font-weight: 400;
+	--e-global-typography-accent-font-family: "Lato";
+	--e-global-typography-accent-font-size: 0.875em;
+	--e-global-typography-accent-font-weight: 500;
+	--e-global-typography-fc5dd07-font-family: "Lato";
+	--e-global-typography-fc5dd07-font-size: 3em;
+	--e-global-typography-fc5dd07-font-weight: 600;
+	--e-global-typography-eb856d8-font-family: "Lato";
+	--e-global-typography-eb856d8-font-size: 2.5em;
+	--e-global-typography-eb856d8-font-weight: 600;
+	--e-global-typography-eb856d8-line-height: 1.2em;
+	--e-global-typography-df3c188-font-family: "Lato";
+	--e-global-typography-df3c188-font-size: 2em;
+	--e-global-typography-df3c188-font-weight: 600;
+	--e-global-typography-df3c188-line-height: 1.2em;
+	--e-global-typography-bb13a59-font-family: "Lato";
+	--e-global-typography-bb13a59-font-size: 1.5em;
+	--e-global-typography-bb13a59-font-weight: 600;
+	--e-global-typography-bb13a59-line-height: 1.2em;
+	background-color: var(--e-global-color-a631957);
+	color: var(--e-global-color-text);
+	font-family: "Lato", Sans-serif;
+	font-weight: 500;
+}
+
+.elementor-kit-21801 e-page-transition {
+	background-color: #FFBC7D;
+}
+
+.elementor-kit-21801 a {
+	font-family: "Lato", Sans-serif;
+	font-size: 3px;
+	font-weight: 600;
+}
+
+.elementor-kit-21801 h1 {
+	color: var(--e-global-color-primary);
+	font-family: "Lato", Sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.elementor-kit-21801 h2 {
+	font-family: "Lato", Sans-serif;
+	font-weight: 600;
+}
+
+.elementor-kit-21801 h3 {
+	font-family: "Lato", Sans-serif;
+	font-weight: 600;
+}
+
+.elementor-kit-21801 h4 {
+	font-family: "Lato", Sans-serif;
+	font-weight: 600;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+	max-width: 1280px;
+}
+
+.e-con {
+	--container-max-width: 1280px;
+	--container-default-padding-top: 100px;
+	--container-default-padding-right: 0px;
+	--container-default-padding-bottom: 100px;
+	--container-default-padding-left: 0px;
+}
+
+.elementor-widget:not(:last-child) {
+	margin-block-end: 20px;
+}
+
+.elementor-element {
+	--widgets-spacing: 20px 20px;
+	--widgets-spacing-row: 20px;
+	--widgets-spacing-column: 20px;
+}
+
+	{}
+
+h1.entry-title {
+	display: var(--page-title-display);
+}
+
+@media(max-width:1366px) {
+	.elementor-kit-21801 {
+		--e-global-typography-fc5dd07-font-size: 3em;
+		--e-global-typography-df3c188-font-size: 2em;
+	}
+
+	.elementor-kit-21801 a {
+		font-size: 3em;
+	}
+
+	.elementor-kit-21801 h1 {
+		font-size: 2.5em;
+	}
+
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 95%;
+	}
+
+	.e-con {
+		--container-max-width: 95%;
+	}
+}
+
+@media(max-width:1024px) {
+	.elementor-kit-21801 {
+		--e-global-typography-text-font-size: 1.125em;
+		--e-global-typography-accent-font-size: 0.875em;
+		--e-global-typography-fc5dd07-font-size: 2.5em;
+		--e-global-typography-eb856d8-font-size: 2.25em;
+		--e-global-typography-bb13a59-font-size: 1.5em;
+		font-size: 1.1em;
+	}
+
+	.elementor-kit-21801 h1 {
+		font-size: 2.5em;
+	}
+
+	.e-con {
+		--container-default-padding-top: 50px;
+		--container-default-padding-right: 0px;
+		--container-default-padding-bottom: 050px;
+		--container-default-padding-left: 0px;
+	}
+}
+
+@media(max-width:767px) {
+	.elementor-kit-21801 {
+		--e-global-typography-text-font-size: 1em;
+		--e-global-typography-text-line-height: 1.1em;
+		--e-global-typography-eb856d8-font-size: 2.1em;
+		font-size: 1em;
+	}
+
+	.elementor-kit-21801 h1 {
+		font-size: 2.5em;
+	}
+
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 90%;
+	}
+
+	.e-con {
+		--container-max-width: 90%;
+		--container-default-padding-top: 50px;
+		--container-default-padding-right: 0px;
+		--container-default-padding-bottom: 50px;
+		--container-default-padding-left: 0px;
+	}
+}
+
+@media(min-width:2400px) {
+	.elementor-kit-21801 {
+		--e-global-typography-fc5dd07-font-size: 3em;
+	}
+
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 1280px;
+	}
+
+	.e-con {
+		--container-max-width: 1280px;
+	}
+}
+
+/* Start Custom Fonts CSS */
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../../2024/12/Lato-Regular.eot');
+	src: url('../../2024/12/Lato-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2024/12/Lato-Regular.woff2') format('woff2'),
+		url('../../2024/12/Lato-Regular.woff') format('woff'),
+		url('../../2024/12/Lato-Regular.ttf') format('truetype'),
+		url('../../2024/12/Lato-Regular.svg#Lato') format('svg');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('../../2024/12/Lato-Bold.eot');
+	src: url('../../2024/12/Lato-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2024/12/Lato-Bold.woff2') format('woff2'),
+		url('../../2024/12/Lato-Bold.woff') format('woff'),
+		url('../../2024/12/Lato-Bold.ttf') format('truetype'),
+		url('../../2024/12/Lato-Bold.svg#Lato') format('svg');
+}
+
+/* End Custom Fonts CSS */

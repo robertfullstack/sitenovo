@@ -1,0 +1,17 @@
+.elementor-22312 .elementor-element.elementor-element-75d161bf{--display:flex;}.elementor-22312 .elementor-element.elementor-element-f1e1dae .e-contact-buttons__chat-button{font-family:"Lato", Sans-serif;font-size:16px;font-weight:500;}.elementor-22312 .elementor-element.elementor-element-f1e1dae .e-contact-buttons{--e-contact-buttons-button-bg:#25D366;--e-contact-buttons-transition-duration:0.3s;}/* Start custom CSS for contact-buttons-var-9, class: .elementor-element-f1e1dae */.fas.fa-globe::before {
+    content: "\f232"; /* Código do ícone WhatsApp */
+    font-family: "Font Awesome 5 Brands"; /* Família correta */
+    font-weight: normal; /* Deixe o ícone menos "grosso" */
+    display: inline-block;
+}
+
+/*CELULAR*/
+@media(max-width: 767px){
+.elementor-22312 .elementor-element.elementor-element-f1e1dae .e-contact-buttons__chat-button-text {
+    display: none;
+}
+
+.elementor-22312 .elementor-element.elementor-element-f1e1dae .e-contact-buttons__chat-button-text:hover {
+    display: block;
+}
+}/* End custom CSS */
