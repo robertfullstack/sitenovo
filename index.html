@@ -2458,82 +2458,156 @@ window.addEventListener("scroll", function() {
 		<div" class="elementor-element elementor-element-631443d first e-flex e-con-boxed e-con e-parent"
 			data-id="631443d" data-element_type="container">
 			<div class="e-con-inner">
-				<div class="elementor-element elementor-element-552b6916 e-con-full e-flex e-con e-child"
-					data-id="552b6916" data-element_type="container">
-					<div class="elementor-element elementor-element-22b334ea elementor-widget elementor-widget-heading"
-						data-id="22b334ea" data-element_type="widget" data-widget_type="heading.default">
-						<div class="elementor-widget-container">
-							<h2 class="elementor-heading-title elementor-size-default"
-								style="font-size: 38px; width: 100% !important; margin-top: 200px; !important; width: 700px !important;">
-								Aqui
-								garantimos que as
-								atividades
-								desenvolvidas estejam em conformidade com a legislação ambiental e promovam práticas
-								sustentáveis.</h2>
-						</div>
+				<div class="container" style="margin-top: 160px; width: 120%; !important">
+					<div class="text-content">
+						<h1 style="font-size: 48px;">Sua empresa parceira em soluções ambientais e sustentáveis</h1>
+						<p style="">Gestão Ambiental eficiente para regularização de atividades e
+							empreendimentos</p>
+						<a href="https://api.whatsapp.com/send?phone=5513997226984&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!"
+							class="cta-button" style="font-size: 18px;">Fale com um especialista</a>
+						<p>Não coloque em risco as questões ambientais da sua empresa</p>
 					</div>
-					<style>
-						@media screen and (max-width: 600px) {
-							.home-proincai {
-								width: 600px !important;
-							}
-						}
-					</style>
-					<div class="elementor-element elementor-element-711a237d elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor"
-						data-id="711a237d" data-element_type="widget" data-widget_type="text-editor.default">
-						<div class="elementor-widget-container">
-							<p>Gestão Ambiental eficiente para regularização de atividades e empreendimentos</p>
-						</div>
-					</div>
-					<div class="elementor-element elementor-element-17a75e18 elementor-mobile-align-justify elementor-widget elementor-widget-button"
-						data-id="17a75e18" data-element_type="widget" data-widget_type="button.default">
-						<div class="elementor-widget-container">
-							<div class="elementor-button-wrapper ">
-								<a class="botao-fale-com-especialista elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
-									href="https://api.whatsapp.com/send?phone=5513997226984&amp;text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20suas%20solu%C3%A7%C3%B5es%20ambientais!"
-									target="_blank">
-									<span class="elementor-button-content-wrapper botao-um-especialista">
-										<span class="elementor-button-text botao-um-especialista">Fale com um
-											especialista</span>
-									</span>
-									<style>
-										.botao-um-especialista {
-											border-radius: 100px !important;
-										}
-									</style>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="elementor-element elementor-element-2eebcdde elementor-widget elementor-widget-text-editor"
-						data-id="2eebcdde" data-element_type="widget" data-widget_type="text-editor.default">
-						<div class="elementor-widget-container">
-							<p>Não coloque em risco as questões ambientais.</p>
-						</div>
+					<div class="image-content">
+						<img src="https://png.pngtree.com/png-clipart/20240126/original/pngtree-green-forest-world-earth-day-png-image_14160235.png"
+							alt="">
 					</div>
 				</div>
+
+
+
+
+				<style>
+					.container {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						gap: 20px;
+						padding: 20px;
+						max-width: 1200px;
+						width: 100%;
+						margin: 0 auto;
+						box-sizing: border-box;
+						flex-wrap: wrap;
+					}
+
+					.text-content {
+						flex: 1;
+						min-width: 300px;
+						max-width: 60%;
+					}
+
+					.image-content img {
+						width: 100%;
+						max-width: 400px;
+						height: auto;
+					}
+
+					.text-content .cta-button {
+						background-color: #28A745;
+						color: #fff;
+						padding: 10px 20px;
+						border: none;
+						border-radius: 5px;
+						cursor: pointer;
+						text-decoration: none;
+						display: inline-block;
+						transition: all 0.3s ease;
+						box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+					}
+
+					.text-content .cta-button:hover {
+						background-color: #218838;
+						transform: translateY(-3px);
+						box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+					}
+
+					.text-content h1 {
+						color: #08774e;
+						font-size: 2.5em;
+						margin-bottom: 10px;
+					}
+
+					.text-content p {
+						font-size: 1.2em;
+						color: #333;
+						margin-bottom: 20px;
+					}
+
+					.image-content img {
+						max-width: 500px;
+						height: auto;
+						object-fit: cover;
+						border-radius: 10px;
+					}
+
+					/* Responsividade */
+					@media (max-width: 1200px) {
+						.text-content {
+							max-width: 50%;
+						}
+
+						.image-content {
+							text-align: center;
+							margin: auto;
+
+						}
+
+						.image-content img {
+							max-width: 350px;
+						}
+
+						.text-content .cta-button {
+							width: 100%;
+							text-align: center;
+						}
+					}
+
+					@media (max-width: 768px) {
+						.container {
+							width: 50% !important;
+							margin-left: 00px;
+						}
+
+						.text-content {
+							max-width: 100%;
+						}
+
+						.image-content img {
+							max-width: 80%;
+						}
+					}
+
+					@media (max-width: 480px) {
+						.text-content h1 {
+							font-size: 1.8em;
+						}
+
+						.text-content p {
+							font-size: 1em;
+						}
+
+						.text-content .cta-button {
+							padding: 10px 15px;
+							font-size: 0.9em;
+						}
+
+						.image-content img {
+							max-width: 70%;
+						}
+					}
+				</style>
 				<div class="elementor-element elementor-element-4a8c7607 e-con-full img-container e-flex e-con e-child"
 					data-id="4a8c7607" data-element_type="container"
 					data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.25,&quot;sizes&quot;:[]},&quot;motion_fx_tilt_effect&quot;:&quot;yes&quot;,&quot;motion_fx_tilt_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]}}">
 					<div class="elementor-element elementor-element-662f6f5a elementor-hidden-mobile elementor-widget elementor-widget-image"
 						data-id="662f6f5a" data-element_type="widget" data-widget_type="image.default">
 
+
 					</div>
 					<div class="elementor-element elementor-element-9d293af elementor-hidden-widescreen elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet elementor-widget elementor-widget-image"
 						data-id="9d293af" data-element_type="widget" data-widget_type="image.default">
-						<div class="elementor-widget-container">
-							<img decoding="async" width="500" height="500"
-								src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E"
-								class="attachment-large size-large wp-image-22083" alt=""
-								data-lazy-srcset="https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4.webp 500w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-300x300.webp 300w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-150x150.webp 150w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-24x24.webp 24w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-48x48.webp 48w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-96x96.webp 96w"
-								data-lazy-sizes="(max-width: 500px) 100vw, 500px"
-								data-lazy-src="https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4.webp" /><noscript><img
-									decoding="async" width="500" height="500"
-									src="wp-content/uploads/2024/12/earth_mob_compress-4.webp"
-									class="attachment-large size-large wp-image-22083" alt=""
-									srcset="https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4.webp 500w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-300x300.webp 300w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-150x150.webp 150w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-24x24.webp 24w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-48x48.webp 48w,   https://aaa.com.br/wp-content/uploads/2024/12/earth_mob_compress-4-96x96.webp 96w"
-									sizes="(max-width: 500px) 100vw, 500px" /></noscript>
-						</div>
+
+
 					</div>
 				</div>
 			</div>
